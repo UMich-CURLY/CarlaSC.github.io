@@ -70,6 +70,10 @@ Our data set is split into two coordinate systems with three splits each. There 
 
 The file structure of our data is shown below. Formats are similar to that of Semantic KITTI, where semantic labels are stored as a [NumPy](https://numpy.org/) uint32 file with the extension ".label" and other files including point locations, number of points per cell, and scene flow are stored as a [NumPy](https://numpy.org/) float32 file with the ".bin" extension. Files are stored as a six character string indicating the frame number followed by an extension, which may be mapped to an exact time using the "times.txt" file. Note that all files use the ego sensor coordinate frame. 
 
+### Updated Dataset with Fine Resolution (May 25, 2022)
+
+To better match with the standards set by SemanticKitti, we have also provided a separate version of the semantic scene completion ground truth in the same voxel resolution as SemanticKitti. Specifically, the voxel grid for each frame is of size 256x256x16 over the same volume as before. The fine resolution download links can be found in the Download page for the Cartesian dataset. Note: The download links only contain the evaluation directory as all others are unaffected by voxel resolution and can be downloaded from the original Cartesian dataset.
+
 <p align="left">
   <img src="../images/Folder.png" width="35px" />
    <b>Split</b> (Train, Val, and Test)
@@ -112,7 +116,7 @@ The file structure of our data is shown below. Formats are similar to that of Se
 
 <p align="left" style="text-indent: 150px;">
   <img src="../images/Paper.png" width="35px" />
-   <b>poses.txt</b>
+   <b>poses.txt</b> 
 </p>
 
 <p align="left" style="text-indent: 150px;">

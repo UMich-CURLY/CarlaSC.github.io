@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 <p float="middle">
-    <video autoplay="autoplay" src="../images/NetworksFast.mp4" controls="controls" width="100%" />
+    <video autoplay="autoplay" src="../images/NetworksFineRes.mp4" controls="controls" width="100%" />
 </p>
 
 
