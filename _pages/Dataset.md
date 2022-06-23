@@ -6,7 +6,7 @@ author_profile: true
 
 
 <p float="middle">
-    <video autoplay="autoplay" src="../images/DataVideo.mp4" controls="false" width="100%" />
+    <video autoplay="autoplay" src="../images/web_highres_voxels_quaterspeed.mp4" controls="false" width="100%" />
 </p>
 
 Welcome! **CarlaSC** is a semantic scene completion dataset with the aim of increasing scene understanding in dynamic environments. Dynamic environments are challenging for scene understanding because dynamic objects leave behind traces and occlusions in completed scenes. As a result, quantifying performance and supervising training of algorithms from real world data is difficult. Therefore, we propose **CarlaSC**, a synthetic outdoor driving dataset generated from *randomly sampled multi-view geometry*.

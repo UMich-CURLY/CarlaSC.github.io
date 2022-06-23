@@ -10,7 +10,7 @@ redirect_from: /sitemap/
 
 <p float="middle">
 <div>
-    <video autoplay="autoplay" src="./images/twon10h_web_home.mp4" controls="controls" width="100%" />
+    <video autoplay="autoplay" src="./images/town10h_wh_4x.mp4" controls="controls" width="100%" />
 </div>
 </p>
 

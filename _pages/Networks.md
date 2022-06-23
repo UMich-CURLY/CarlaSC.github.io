@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 <p float="middle">
-    <video autoplay="autoplay" src="../images/twon10h_website_labled.mp4" controls="controls" width="100%" />
+    <video autoplay="autoplay" src="../images/twon10x_wl_10x.mp4" controls="controls" width="100%" />
 </p>
 
 
