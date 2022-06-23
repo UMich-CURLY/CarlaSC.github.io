@@ -9,7 +9,7 @@ author_profile: true
     <video autoplay="autoplay" src="../images/DataVideo.mp4" controls="false" width="100%" />
 </p>
 
-Welcome! **CarlaSC** is a semantic scene completion dataset with the aim of increasing scene understanding in dynamic environments. Dynamic environments are challenging for scene understanding because dynamic objects leave behind traces and occlusions in completed scenes. As a result, quantifying performance and supervising training of algorithms from real world data is challenging. Therefore, we propose **CarlaSC**, a synthetic outdoor driving dataset generated from *randomly sampled multi-view geometry*.
+Welcome! **CarlaSC** is a semantic scene completion dataset with the aim of increasing scene understanding in dynamic environments. Dynamic environments are challenging for scene understanding because dynamic objects leave behind traces and occlusions in completed scenes. As a result, quantifying performance and supervising training of algorithms from real world data is difficult. Therefore, we propose **CarlaSC**, a synthetic outdoor driving dataset generated from *randomly sampled multi-view geometry*.
 
 ## Overview
 
@@ -22,7 +22,7 @@ Our dataset consists of 24 sequences, generated from eight maps with a light tra
 
 ## Scan Properties
 
-To maintain consistency with SemanticKitti, each scene in **CarlaSC** contains 131,702 cells, which is roughly equal to the number of points in each scan. Scan coordinates are in the ego Lidar frame, where the x direction is forward, y direction is to the right, and z direction is up. The limits on both the cartesian and cylindrical coordinate systems were chosen to be roughly the same as Kitti, and the total volume contained by each nearly the same as well. The resolution for resolution of the cartesian and cylindrical scene is (2.81 degrees, 0.23 m, 0.375 m). While Semantic KITTI voxelizes only the region 51.2 meters in front of the vehicle, we include the region in front and behind the vehicle, as the both regions are important for safe and efficient operation. 
+For every frame in our data set, there is a point cloud with ground truth semantic labels and scene flow vectors, a bird’s eye view image for validation, ground truth pose and time, and ground truth semantically labeled scenes. We offer ground truth scenes in both cylindrical and cartesian coordinates, but primarily focus upon the cartesian system. Scenes are available in two resolutions, one of size 128x128x8 and the other of size 256x256x16. We include not only the region directly ahead of the ego vehicle in our semantically labeled scenes, but the full surroundings of the ego vehicle as we believe the entire scene is important for safe navigation and planning. 
 
 
 The exact dimensions for each scene in cartesian and cylindrical coordinates is shown below.
@@ -34,7 +34,8 @@ The exact dimensions for each scene in cartesian and cylindrical coordinates is 
 Our multi-view scenes include free space labels and minimal occlusions. Each map divided into a low traffic, medium traffic, and high traffic setting. Low traffic is defined as 25 autonomous pedestrians and vehicles, medium traffic as 50 of each, and high traffic as 100. An example image from our dataset compared to a similar frame in the well-known [Semantic KITTI](http://www.semantic-kitti.org/) dataset is shown below. 
 
 <p float="middle">
-  <img src="../images/CarlaKITTI.png" width="100%" />
+  <img src="../images/GoodCarlaOrig.png" width="45%" />
+  <img src="../images/BadKITTIOrig.png" width="50%" />
 </p>
 
 ## Classes

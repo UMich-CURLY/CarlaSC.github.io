@@ -26,15 +26,15 @@ author_profile: true
     <b>Fine Resolution Cartesian Ground Truth Evaluation Voxels (More info on Dataset Page)</b>
     <div class="DOWNLOAD-block">
         <a href="https://drive.google.com/file/d/1nPi3ABBsPP3zpAYzK2YH7ZBc0ygVaK2j/view?usp=sharing">Download</a>
-        <p>Train (68 GB)</p>
+        <p>Train (3 GB)</p>
     </div>
     <div class="DOWNLOAD-block">
         <a href="https://drive.google.com/file/d/1Nwuwgn0iavn5VsZRBNsb5Wy7zQ8TMKw6/view?usp=sharing">Download</a>
-        <p>Validation (12 GB)</p>
+        <p>Validation (0.6 GB)</p>
     </div>
     <div class="DOWNLOAD-block">
         <a href="https://drive.google.com/file/d/152toPW9cPRvHhkSoxIa1hEpV_LLaPY3-/view?usp=sharing">Download</a>
-        <p>Test (12 GB)</p>
+        <p>Test (0.5 GB)</p>
     </div>
 </div>
 

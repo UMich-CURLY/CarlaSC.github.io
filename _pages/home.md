@@ -7,9 +7,12 @@ redirect_from: /sitemap/
 ---
 
 <p>A Data Set and Network for Real-Time Semantic Mapping in Dynamic Environments</p>
+
+<p float="middle">
 <div>
-    <video autoplay="autoplay" src="./images/MotionSCHomeVideo.mp4" controls="controls" width="100%" />
+    <video autoplay="autoplay" src="./images/twon10h_web_home.mp4" controls="controls" width="100%" />
 </div>
+</p>
 
 <div class="page__lead">
     <div class="page__content">
@@ -45,42 +48,15 @@ redirect_from: /sitemap/
                 Additional Information here.
             </p> -->
     </div>
-    <div class="page__content">
-        <p>
-        Comparison with Other Semantic Mapping Datasets
-        </p>
-        <table class="table">
-            <tr>
-                <th>Metric</th>
-                <th>Our Dataset (MotionSC)</th> 
-                <th>SemanticKitti</th>
-            </tr>
-            <tr>
-                <td>Scan Speed (Hz)</td> 
-                <td>10</td> 
-                <td>10</td>
-            </tr>
-            <tr>
-                <td>Total Scene Count</td>
-                <td>24</td> 
-                <td>20</td>
-            </tr>
-            <tr>
-                <td>Total Class Count</td>
-                <td>23</td> 
-                <td>28</td>
-            </tr>
-        </table>
-    </div>
+
 </div>
 
 <div class="page__content">
     Getting started
     <p class="small">
-        A description of the dataset and its properties can be found in the Dataset page on this website. To download it, please visit the Download page to download the Cartesian or Cylindrical dataset version. An example of how to use the dataset can be found on the MotionSC Github repository linked in the Download page as well. This repository contains the CarlaSC dataloader used in the MotionSC paper as well as python visualization scripts.
+        A description of the dataset and its properties can be found in the <a href="./dataset/">Dataset</a> page on this website. To download it, please visit the <a href="./download/">Download</a> page to download the Cartesian or Cylindrical dataset version. An example of how to use the dataset can be found on the <a href="https://github.com/UMich-CURLY/3DMapping">MotionSC Github</a> repository. This repository contains the CarlaSC dataloader used in the MotionSC paper as well as python visualization scripts.
     </p>
 </div>  
-
 
 <div class="page__content">
     <div>
