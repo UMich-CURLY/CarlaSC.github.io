@@ -34,8 +34,8 @@ The exact dimensions for each scene in cartesian and cylindrical coordinates is 
 Our multi-view scenes include free space labels and minimal occlusions. Each map divided into a low traffic, medium traffic, and high traffic setting. Low traffic is defined as 25 autonomous pedestrians and vehicles, medium traffic as 50 of each, and high traffic as 100. An example image from our dataset compared to a similar frame in the well-known [Semantic KITTI](http://www.semantic-kitti.org/) dataset is shown below. 
 
 <p float="middle">
-  <img src="../images/GoodCarlaOrig.png" width="45%" />
-  <img src="../images/BadKITTIOrig.png" width="50%" />
+  <img src="../images/HD.png" width="51%" />
+  <img src="../images/BadKITTIOrig.png" width="45%" />
 </p>
 
 ## Classes

@@ -30,7 +30,7 @@ The layers of the network can be seen in the graphic below. Each Conv2D operatio
 
 We performed an ablation study of the effect of the size of the temporal axis (T) and the results are shown in the table below. MotionSC with T = 1 achieves both a higher semantic accuracy and mean intersection over union (mIoU) than the baselines. We observed that as the temporal stack height increases, MotionSC improves at nearly all metrics, most evident by the mIoU scores.
 <p align="center">
-  <img src="../images/Geometric_Completeness.png" width="100%" /> 
+  <img src="../images/Geometric_Completeness.png" width="80%" /> 
 
 </p>
 
