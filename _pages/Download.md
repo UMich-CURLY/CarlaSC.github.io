@@ -54,6 +54,8 @@ author_profile: true
     </div>
 </div>
 
+<font size="3">Note: Downloads might be constrained due to the limits of Google Drive, please try again after 24 hr. If you still can't access the file, please email <a>wilsoniv@umich.edu</a> with the title "CarlaSC Access Request".</font>
+
 ## Models
 <div class="DOWNLOAD-block">
     <a href="https://github.com/UMich-CURLY/3DMapping">MotionSC Github Repository</a>
