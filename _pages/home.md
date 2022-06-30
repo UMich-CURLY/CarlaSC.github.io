@@ -6,7 +6,7 @@ author_profile: true
 redirect_from: /sitemap/
 ---
 
-<p>A Data Set and Network for Real-Time Semantic Mapping in Dynamic Environments</p>
+<p>A Data Set (CarlaSC) and Network (MotionSC) for Real-Time Semantic Mapping in Dynamic Environments</p>
 
 <p float="middle">
 <div>
