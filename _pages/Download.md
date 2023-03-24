@@ -47,7 +47,7 @@ author_profile: true
 
 ### Cartesian Finer Dataset
 * <b>Train + Validation + Test</b>
-    * <a href="https://www.dropbox.com/s/9d78c3hqxf6iwvy/eval_fine.zip?dl=0](https://curly-dataset-public.s3.us-east-2.amazonaws.com/CARLA/eval_fine.zip">Download 4.3GB</a>
+    * <a href="https://curly-dataset-public.s3.us-east-2.amazonaws.com/CARLA/eval_fine.zip">Download 4.3GB</a>
 
 
 ## Models
